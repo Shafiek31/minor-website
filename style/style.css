@@ -1,0 +1,264 @@
+/*
+• KLeur: #030303 - h1, h2 etc.
+• Nav-Font color: #515151
+• Nav hover: #bababa
+
+*/
+
+body {
+    font-family: 'din';
+    background-color: white;
+    margin: 0;
+}
+
+.naam {
+    width: 75px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5em;
+    opacity: 25%;
+}
+
+header img {
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: auto;
+}
+
+.cijfer {
+    font-size: 1.5em;
+    color: black;
+    text-align: center;
+}
+
+header {
+    background-color: black;
+}
+
+nav a {
+    text-decoration: none;
+    color: #515151;
+    /*Strepen onder de linkjes weg te halen*/
+    padding: 1em;
+    width: 100%;
+    letter-spacing: -1px;
+}
+
+nav a:hover {
+    display: flex;
+    justify-content: space-around;
+    color: #bababa;
+    transition: 0.7s;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    padding-top: 1em;
+    margin: 1em;
+    margin-bottom: 0em;
+    color: #030303
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+    font-weight: 100;
+    padding-top: 1em;
+    margin: 1em;
+    margin-bottom: 0em;
+    font-weight: bold;
+    color: grey;
+}
+
+main p {
+    text-align: center;
+    margin: auto;
+    padding: 1em 10em;
+    text-align: center;
+    color: #515151
+}
+
+span {
+    font-size: 1em;
+    font-weight: 900;
+    color: black
+}
+
+/*ul li {
+    color: white;
+    font-size: 1em;
+    padding: 1.2em;
+    display: inline;
+    text-transform: uppercase;
+    color: black;
+    text-align: center;
+    margin: 0 2em;
+}*/
+
+li {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1em;
+    margin-bottom: 0em;
+}
+
+nav {
+    background-color: #030303;
+    padding: auto;
+    margin: auto;
+    margin-bottom: 1em;
+}
+
+.logo-patroon {
+    opacity: 50%;
+    margin: -0.7em;
+    padding: 0em;
+    width: 40px
+}
+
+.logo-patroon:hover {
+    opacity: 100%;
+    transition: 1s;
+    margin: -0.7em;
+    width: 40px;
+
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: -1em
+}
+
+main img {
+    padding-top: 3em;
+    display: flex;
+    width: 60px;
+    margin: auto;
+    padding: auto;
+    opacity: 75%;
+}
+
+footer p {
+    opacity: 40%;
+    font-size: 0.7em;
+    color: grey;
+    text-align: center;
+    background-color: white;
+    padding: 2em;
+    margin-bottom: 0em;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    padding: 1em 0em;
+}
+
+.kleur-section img {
+    width: 100%;
+    margin: 0;
+}
+
+.kleur-section-02 img {
+    width: 100%;
+    margin: 0em;
+    padding: 0em;
+}
+
+section a {
+    text-decoration: none;
+}
+
+
+article {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    margin: 0em 1em;
+    border-radius: 3px;
+}
+
+article h3 {
+    margin-left: auto;
+    margin-right: auto;
+    color: #bababa;
+    font-weight: 100;
+    font-size: 1em;
+    margin-top: 0em;
+}
+
+article h3:hover {
+    color: #515151;
+    transition: 0.7s;
+    font-weight: bold;
+}
+
+.xs {
+    width: 400px;
+    opacity: 100%;
+    padding: 1em;
+}
+
+.banner-klein {
+    width: 150px;
+    padding: 4em;
+}
+
+#beeldtaal main img {
+    width: 750px;
+    opacity: 100%;
+    padding: 0em;
+    margin-top: 2em;
+    background-color: white;
+}
+
+.kleur-header {
+    background-color: white;
+}
+
+button {
+    display: flex;
+    font-size: 1em;
+    color: grey;
+    background-color: black;
+    border-radius: 5px;
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em 2em;
+}
+
+button:hover {
+    color: white;
+    cursor: pointer;
+    transition: 1s ease-in-out all;
+}
+
+video {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 750px;
+    opacity: 100%;
+    padding: 0em;
+    margin-top: 2em;
+    background-color: white;
+}
+
+@media(min-width: 80em) {
+
+    main p {
+        text-align: center;
+        padding: 1em 30em;
+    }
+}
