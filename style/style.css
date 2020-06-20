@@ -53,6 +53,7 @@ header img {
     font-size: 1.5em;
     color: black;
     text-align: center;
+    font-weight: 400;
 }
 
 .cijfer-project {
@@ -85,6 +86,7 @@ h1 {
     display: flex;
     justify-content: center;
     font-size: 2em;
+    font-weight: 400;
     padding-top: 1em;
     margin: 1em;
     margin-bottom: 0em;
@@ -95,12 +97,11 @@ h1 {
 h2 {
     display: flex;
     justify-content: center;
-    font-size: 1.5em;
-    font-weight: 100;
+    font-size: 1.6em;
+    font-weight: 500;
     padding-top: 1em;
     margin: 1em;
     margin-bottom: 0em;
-    font-weight: bold;
     color: grey;
 }
 
