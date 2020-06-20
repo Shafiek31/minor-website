@@ -19,6 +19,28 @@ body {
     opacity: 25%;
 }
 
+.intro-01 {
+    margin: 0;
+    background-color: #f5f5f5;
+    width: 100%;
+    text-align: center;
+    animation: move 4s ease;
+}
+
+.intro-02 {
+    background-color: #f5f5f5;
+    text-align: center;
+    padding-bottom: 1em;
+    animation: move 4s ease;
+}
+
+.intro-03 {
+    background-color: #f5f5f5;
+    text-align: center;
+    padding-bottom: 2em;
+    animation: move 4s ease;
+}
+
 header img {
     width: 600px;
     display: flex;
@@ -31,6 +53,12 @@ header img {
     font-size: 1.5em;
     color: black;
     text-align: center;
+}
+
+.cijfer-project {
+    font-size: 1em;
+    text-align: center;
+    color: #515151;
 }
 
 header {
@@ -60,7 +88,8 @@ h1 {
     padding-top: 1em;
     margin: 1em;
     margin-bottom: 0em;
-    color: #030303
+    color: #030303;
+    animation: move 2s ease;
 }
 
 h2 {
@@ -75,12 +104,24 @@ h2 {
     color: grey;
 }
 
+.overig-intro {
+    transition: 2s;
+    animation: background 5s ease;
+}
+
+@keyframes background {
+    0% {color: grey;}
+    100% {color: black;}
+}
+
+
+
 main p {
     text-align: center;
     margin: auto;
     padding: 1em 10em;
     text-align: center;
-    color: #515151
+    color: #515151;
 }
 
 span {
@@ -211,7 +252,23 @@ article h3:hover {
 .banner-klein {
     width: 150px;
     padding: 4em;
+    animation: move 2s ease, bounce 1s ease;
 }
+
+@keyframes move {
+    from {
+        opacity: 0%;
+    }
+    to {
+        opacity: 100%;
+    }
+}
+
+@keyframes bounce {
+        0%   { transform: translateY(0); }
+        50%  { transform: translateY(-30px); }
+        100% { transform: translateY(0); }
+    }
 
 #beeldtaal main img {
     width: 750px;
@@ -222,7 +279,23 @@ article h3:hover {
 }
 
 .kleur-header {
-    background-color: white;
+    background-color: #f5f5f5;
+    animation: color 3s ease;
+}
+
+@keyframes color {
+    0% {background-color: white;}
+    100% {background-color: #f5f5f5;}
+
+}
+
+.twee-buttons button {
+    margin: 1em;
+}
+
+
+.banner-klein-alles {
+    animation: move 8s ease;
 }
 
 button {
@@ -234,7 +307,7 @@ button {
     margin-top: 2em;
     margin-left: auto;
     margin-right: auto;
-    padding: 1em 2em;
+    padding: 0.6em 2em;
 }
 
 button:hover {
