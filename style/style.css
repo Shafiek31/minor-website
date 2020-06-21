@@ -41,6 +41,18 @@ body {
     animation: move 4s ease;
 }
 
+.italic {
+    font-style: italic;
+    font-weight: 400;
+    color: grey;
+}
+
+.blok {
+    font-size: 0.5em;
+    opacity: 20%;
+    font-weight: 400;
+}
+
 header img {
     width: 600px;
     display: flex;
