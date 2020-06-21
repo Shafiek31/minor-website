@@ -106,16 +106,13 @@ h2 {
 }
 
 .overig-intro {
-    transition: 2s;
-    animation: background 5s ease;
+    animation: move 2s ease;
 }
 
 @keyframes background {
     0% {color: grey;}
     100% {color: black;}
 }
-
-
 
 main p {
     text-align: center;
@@ -166,7 +163,6 @@ nav {
 
 .logo-patroon:hover {
     opacity: 100%;
-    transition: 1s;
 }
 
 ul {
@@ -238,7 +234,6 @@ article h3 {
 article h3:hover {
     color: #515151;
     transition: 0.7s;
-    font-weight: bold;
 }
 
 .xs {
@@ -306,6 +301,7 @@ button {
     margin-left: auto;
     margin-right: auto;
     padding: 0.6em 2em;
+    text-decoration: none;
 }
 
 button:hover {
